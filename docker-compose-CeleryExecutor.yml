@@ -43,7 +43,7 @@ services:
             retries: 3
 
     flower:
-        image: jstnck/puckel-mod-v2: latest
+        image: jstnck/puckel-mod-v2:latest
         restart: always
         depends_on:
             - redis
